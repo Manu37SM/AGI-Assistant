@@ -1,6 +1,6 @@
-# The AGI Assistant — MVP (Windows 11, Vosk STT)
+# The AGI Assistant — MVP
 
-**What this is**: A local, offline MVP that records screenshots and short audio segments, performs OCR (Tesseract) and STT (Vosk), and produces a structured JSON timeline + simple rule-based summary. This project is Windows-first and tailored for the hackathon Round 1 (Observe & Understand).
+A local, offline MVP that records screenshots and short audio segments, performs OCR (Tesseract) and STT (Vosk), and produces a structured JSON timeline + simple rule-based summary. This project is Windows-first and tailored for the hackathon Round 1 (Observe & Understand).
 
 ---
 ## What's included
@@ -15,7 +15,7 @@
 - `/data/` — folders created by runtime (screenshots, audio, transcripts, output)
 
 ---
-## Prerequisites (Windows 11)
+## Prerequisites
 1. Install Python 3.10+ from https://python.org and make sure `python` and `pip` are on PATH.
 2. Install FFmpeg (optional for recording clips) and add to PATH: https://ffmpeg.org/download.html
 3. Install Tesseract OCR (for `pytesseract`) — recommended Windows build: https://github.com/UB-Mannheim/tesseract/wiki
@@ -34,6 +34,8 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 Edit `config.yaml` if your Tesseract executable or Vosk model path differs.
+
+OR just run the demo.bat as .veno is in the GIT REPO itself.
 
 Run the demo (records ~60 seconds and writes JSON):
 ```powershell
