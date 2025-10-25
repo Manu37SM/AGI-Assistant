@@ -1,0 +1,9 @@
+mss
+opencv-python
+pytesseract
+sounddevice
+vosk
+numpy
+pillow
+pyyaml
+wavio

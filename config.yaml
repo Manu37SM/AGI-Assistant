@@ -1,0 +1,6 @@
+# Edit paths if your installation differs
+TESSERACT_CMD: "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+VOSK_MODEL_PATH: "models/vosk-model-small"
+SCREENSHOT_INTERVAL_SEC: 2
+AUDIO_SEGMENT_SEC: 4
+OUTPUT_FOLDER: "data"
