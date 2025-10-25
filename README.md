@@ -35,8 +35,6 @@ pip install -r requirements.txt
 ```
 Edit `config.yaml` if your Tesseract executable or Vosk model path differs.
 
-OR just run the demo.bat as .veno is in the GIT REPO itself.
-
 Run the demo (records ~60 seconds and writes JSON):
 ```powershell
 demo.bat
